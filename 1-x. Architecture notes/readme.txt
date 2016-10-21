@@ -29,7 +29,11 @@ Blackboard
 Progress
 
 ◎ Distributed Systems
+Mediator
 Broker
+Microkernel
+Microservices
+Cloud
 
 ◎ Adaptable Systems
 Reflection
