@@ -36,7 +36,7 @@
 
 現今DOM規範達到Level 4 ( 2015公佈 )，但對於事件系統，有最主要的兩個版本。
 
-○ DOM Level 0
++ DOM Level 0
 
 **『Each event can only have one event handler registered.』**
 
@@ -44,7 +44,7 @@ DOM最早的規範中，開發者可經由單行(inline)命令，在HTML標籤�
 
 但於DOM Level 0中，事件驅動僅能一對一，亦即單一事件僅能觸發單一函數，若要多重觸發、跨層即改寫資訊，皆必須由開發者自行處理。
 
-● DOM Level 2
++ DOM Level 2
 
 **『Bubbling structure and Event-listener, and multiple event handlers can be registered for the same event.』**
 
