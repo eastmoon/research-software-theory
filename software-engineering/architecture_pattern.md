@@ -1,8 +1,9 @@
 ### Interaction
-PAC
-MVC
-MVVM
-MVP
+
++ PAC
++ MVC
++ MVVM
++ MVP
 
 #### 參考
 
@@ -13,17 +14,20 @@ MVP
 + [Architecture - MVP, MVC, MVVM](https://dotblogs.com.tw/regionbbs/2011/09/29/compare_to_mvp_mvc_mvvm)
 
 ### Flow Structure
-Layer
-Pipe & Filter
-Blackboard
-Progress
+
++ Layer
++ Pipe & Filter
++ Blackboard
++ Progress
 
 ### Distributed
-Mediator
-Broker
-Microkernel
-Microservices
-Cloud
+
++ Mediator
++ Broker
++ Microkernel
++ Microservices
++ Cloud
 
 ### Adaptable
-Reflection
+
++ Reflection
