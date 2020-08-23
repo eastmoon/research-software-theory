@@ -1,4 +1,4 @@
-﻿## 深度學習
+## 深度學習
 
 + [Deep Learning wiki](https://en.wikipedia.org/wiki/Deep_learning)
 
@@ -11,7 +11,7 @@
 
 深度學習的好處之一是將用非監督式或半監督式的特徵學習和分層特徵提取的高效算法來替代手工獲取特徵。
 
-##### § 參考
+## 參考
 
 + [Deep Learning（深度学习）学习笔记整理系列之（一）](http://blog.csdn.net/zouxy09/article/details/8775360)
 + [P02 sparse coding cvpr2012 deep learning methods for vision](http://www.slideshare.net/zukun/p02-sparse-coding-cvpr2012-deep-learning-methods-for-vision)
