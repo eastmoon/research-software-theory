@@ -12,8 +12,8 @@
 
 ## Computer vision
 
-1. [SIFT](./software-engineering/language_and_script.md)
-2. [Computer-Mediated Reality](./software-engineering/event_system.md)
+1. [Scale-invariant feature transform](./software-engineering/sift.md)
+2. [Computer-Mediated Reality](./software-engineering/computer_mediated_reality.md)
 
 ## Computer graphics
 
