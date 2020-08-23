@@ -150,7 +150,6 @@ Transform Matrix (Tr) =
 對環境中的每個物體的各個方向打上都具有相同強度的光源，不具位置 (position)、方向屬性 (orientation)；這是模擬環境所有物體皆會反射柔光的情況下產生的效果，不同於有向光的單一方向，放向來自天空、地面、相鄰物體；但於程式模擬中，則將其視為光線來自四周，亦即直接對物體各部位給予等量的光度，並且不會產生陰影。
 > 環境光依據不同系統，會有不同情境的設定，例如開啟影子，亦表示對於不同系統而論，環境光可為單一塗色或採用複數有向光、巨大發光體構成。
 
-
 ## 參考
 
 + [Understanding Different Light Types](http://blog.digitaltutors.com/understanding-different-light-types/)
