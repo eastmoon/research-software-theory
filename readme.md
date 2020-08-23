@@ -3,6 +3,8 @@
 ## Software engineering
 
 1. [Language, Script.](./software-engineering/language_and_script.md)
+    + [Imperative and Declarative](./software-engineering/programming_paradigm_imperative_and_declarative.md)
+    + [Reactive programming](./software-engineering/programming_paradigm_reactive_programming.md)
 2. [Event System](./software-engineering/event_system.md)
     + [Event Listener implemented by Observer pattern](./software-engineering/event_listener_implemented_by_observer_pattern.md)
 3. [Design Pattern](./software-engineering/design_pattern.md)
