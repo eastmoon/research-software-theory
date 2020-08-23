@@ -12,8 +12,8 @@
 
 ## Computer vision
 
-1. [Scale-invariant feature transform](./software-engineering/sift.md)
-2. [Computer-Mediated Reality](./software-engineering/computer_mediated_reality.md)
+1. [Scale-invariant feature transform](./computer-vision/sift.md)
+2. [Computer-Mediated Reality](./computer-vision/computer_mediated_reality.md)
 
 ## Computer graphics
 
