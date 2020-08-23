@@ -30,6 +30,7 @@ Programming paradigms that are often distinguished include imperative, declarati
 3. 邏輯(Logic)，利用人類語言、邏輯式來撰寫，以擬人、人工智慧等抽象、不明確議題為主的設計，用於學習式、自適性演算法。
 
 這三類型語言是個人用於解釋當前所學所知語言的用途、設計傾向，並解析其設計目的，便與理解應用時應注意事項。
+
 這類型不同於程式規範的細膩，也不足以完全解釋單一語言的特性，但單一語言亦可能橫跨兩類；不過含括過多程式規範的語言本身就具有其風險，越是涵蓋過多意義的語言，越容易失去應有特性，進而喪失語言的設計目的，亦或說即使能達到目的也劣於專攻於此的語言，至於何優何劣，應用何者，則留待專案分析才可得出結論。
 
 ### 腳本(Script)
@@ -39,7 +40,9 @@ Programming paradigms that are often distinguished include imperative, declarati
 A scripting or script language is a programming language that supports scripts, programs written for a special run-time environment that automate the execution of tasks that could alternatively be executed one-by-one by a human operator. Scripting languages are often interpreted (rather than compiled). Primitives are usually the elementary tasks or API calls, and the language allows them to be combined into more complex programs. Environments that can be automated through scripting include software applications, web pages within a web browser, the shells of operating systems (OS), embedded systems, as well as numerous games.
 
 腳本語言(Script Language)，是一套對基底程式語言的支援腳本，程序編寫給特定執行中環境，使其可自動執行任務，用以取代人工操作。
+
 基底語言通常對基礎任務提供API(應用程式介面)，而腳本語言則在此基礎上重組複雜的操作程序。
+
 應用程式其本身可能即是提供腳本運行的環境，例如瀏覽器可執行網頁，作業系統、嵌入式可執行Shells，遊戲內的腳本編輯工具。
 
 『針對特定環境的限制型操作語言。』
@@ -62,13 +65,19 @@ Also note that whether a language is a "scripting" language or not can be more a
 程式語言與腳本語言的差別可從下列幾點來說明：
 
 1. 溝通對象
+
 程式語言，溝同於硬體設備或軟體本身。
+
 腳本語言，溝同於基底環境可溝通的硬體設備、軟體。
 
 2. 功能範疇
+
 程式語言與腳本的分界，在於是否以特定語言為基底提供執行環境作轉介。
+
 若環境提供了完整操作的介面，且所有環境皆可解讀同類腳本語言，則該腳本其廣泛應用程度將大於等於基底語言；這亦是當前JavaScript腳本語言的其廣泛性高於特定基礎語言。
 
 3. 語言範疇
+
 腳本語言本身是為符合操作基底環境提供的介面而存在，其中自有的運算式、描述式、宣告式，常會因為簡化於操作這特性，而不符合語言的規範。
+
 亦如早期的JavaScript其弱型態且結構單純，無法完整應用於物件導向的物件互動管理設計。
