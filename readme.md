@@ -2,7 +2,7 @@
 
 ## Software engineering
 
-1-1. Language, Script.
+[1-1. Language, Script.](./software-engineering/language_and_script.md)
 
 ## Image processing
 
