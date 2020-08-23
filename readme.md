@@ -12,13 +12,13 @@
 
 ## Computer vision
 
-1. [Scale-invariant feature transform](./computer-vision/sift.md)
+1. [Scale-invariant feature transform](./computer-vision/Scale-invariant_feature_transform.md)
 2. [Computer-Mediated Reality](./computer-vision/computer_mediated_reality.md)
 
 ## Computer graphics
 
-3-1. Concept, Light
+1. [Concept, Light](./computer-graphics/concept_and_light.md)
 
 ## Information retrieval
 
-4.x
+1. [Deep Learning](./information-retrieval/deep_learning.md)
