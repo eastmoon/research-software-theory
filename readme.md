@@ -10,6 +10,7 @@
 3. [Design Pattern](./software-engineering/design_pattern.md)
 4. [Architecture Pattern](./software-engineering/architecture_pattern.md)
     + [Interactive Architecture](./software-engineering/interactive_architecture.md)
+    + [Dataflow Architecture](./software-engineering/dataflow_architecture.md)
 5. [Folder structure and namespace defined](./software-engineering/folder_structure_and_namespace_defined.md)
 
 ## Computer vision
