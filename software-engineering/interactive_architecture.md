@@ -1,7 +1,5 @@
 ## Interaction architecture
 
-
-
 ### MVC，Model View Controller
 
 於1970年提出的互動架構，其設計概念在於：
