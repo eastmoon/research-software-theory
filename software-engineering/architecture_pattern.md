@@ -29,12 +29,12 @@
 
 ### Interactive
 
-互動 ( Interactive ) 架構，此項分類取自 Pattern-Oriented Software Architecture, Volume 1 中
+互動 ( Interactive ) 架構，此項分類取自 Pattern-Oriented Software Architecture, Volume 1 中架構樣式中的一項分類，除書中提及的兩個架構外，另外提及兩個著名的延伸架構，此兩架構源自日後基於簡化設計、目標設計後抽象與化約的結果。
 
-+ PAC
-+ MVC
-+ MVVM
-+ MVP
++ PAC，Presentation-Abstraction-Control
++ MVC，Model-View-Controller
++ MVVM，Model-View-ViewModel
++ MVP，Model-View-Presenter
 
 #### 參考
 
@@ -44,7 +44,7 @@
 + [Android 官方 MVP 架構解讀](https://read01.com/KEd4E7.html)
 + [Architecture - MVP, MVC, MVVM](https://dotblogs.com.tw/regionbbs/2011/09/29/compare_to_mvp_mvc_mvvm)
 
-### Flow Structure
+### Dataflow Structure
 
 + Pipe & Filter
 + Progress
