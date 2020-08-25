@@ -1,4 +1,4 @@
-## Interaction architecture
+## Interactive architecture
 
 ### MVC，Model View Controller
 
