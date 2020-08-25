@@ -61,7 +61,7 @@ MVP的設計常用於Web-based的軟體，因其設計重點在於資料的規�
 
 + [MVP wiki](https://en.wikipedia.org/wiki/Model%E2%80%93view%E2%80%93presenter)
 
-### Interaction architecture pattern summary
+### Interactive architecture pattern summary
 
 MV(X)系列的互動架構，不論是原始的MVC，延伸的MVP、MVVM、HMVC，乃至於變形的DV、VIPER。
 
