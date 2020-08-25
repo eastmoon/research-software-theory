@@ -1,4 +1,5 @@
 ## Architecture pattern
+> 本研究依據 Pattern-Oriented Software Architecture, Volume 1 - A System Of Patterns 為基礎，並從後期延伸發展與實務應用架構進行討論
 
 **『Architecture is a concept.』**
 > Pattern is a solution to solve the problem, often recall and reuse on the same problem.
@@ -29,7 +30,7 @@
 
 ### Interactive
 
-互動 ( Interactive ) 架構，此項分類取自 Pattern-Oriented Software Architecture, Volume 1 中架構樣式中的一項分類，除書中提及的兩個架構外，另外提及兩個著名的延伸架構，此兩架構源自日後基於簡化設計、目標設計後抽象與化約的結果。
+互動 ( Interactive ) 架構，此項分類取自架構樣式中的一項分類，除書中提及的兩個架構外，另外提及兩個著名的延伸架構，此兩架構源自日後基於簡化設計、目標設計後抽象與化約的結果。
 
 + PAC，Presentation-Abstraction-Control
 + MVC，Model-View-Controller
@@ -46,12 +47,17 @@
 
 ### Dataflow Structure
 
+資料流 ( Dataflow ) 架構，此項分類取自架構樣式中 From Mud to Structure 的分類，除書中提及的三個早期架構外，此外有一個串流系統的架構，一個用於反應式設計的資料流架構；對於資料流架構在書中並未定義，但其內容皆針對資料處理對於『單元』、『流程』、『資料』關係做出定義，因此在此統一歸納為資料流架構，並對此進行研究與說明。
+
 + Pipe & Filter
-+ Progress
 + Layer
 + Blackboard
++ Store Process
++ Progress
 
 ### Distributed
+
+分散式 ( Distributed ) 架構，此項分類取自架構樣式中的一項分類
 
 + Mediator
 + Broker
@@ -60,5 +66,7 @@
 + Cloud
 
 ### Adaptable
+
+適應式 ( Adaptable ) 架構，此項分類取自架構樣式中的一項分類
 
 + Reflection
