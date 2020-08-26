@@ -28,7 +28,7 @@
 > 商業邏輯是指符合軟體商業價值的邏輯，其中包含了大量的針對性邏輯、內容；在抽象化過程，第一步則先將商業邏輯、內容分割、第二步則將基礎邏輯(模組管理、訊息傳遞系統等)、商業邏輯(帳戶登入、登出)分割。
 
 
-### Interactive
+### [Interactive](./interactive_architecture.md)
 
 互動 ( Interactive ) 架構，此項分類取自架構樣式中的一項分類，除書中提及的兩個架構外，另外提及兩個著名的延伸架構，此兩架構源自日後基於簡化設計、目標設計後抽象與化約的結果。
 
@@ -45,7 +45,7 @@
 + [Android 官方 MVP 架構解讀](https://read01.com/KEd4E7.html)
 + [Architecture - MVP, MVC, MVVM](https://dotblogs.com.tw/regionbbs/2011/09/29/compare_to_mvp_mvc_mvvm)
 
-### Dataflow Structure
+### [Dataflow](dataflow_architecture.md)
 
 資料流 ( Dataflow ) 架構，此項分類取自架構樣式中 From Mud to Structure 的分類，除書中提及的三個早期架構外，此外有一個串流系統的架構，一個用於反應式設計的資料流架構；對於資料流架構在書中並未定義，但其內容皆針對資料處理對於『單元』、『流程』、『資料』關係做出定義，因此在此統一歸納為資料流架構，並對此進行研究與說明。
 
