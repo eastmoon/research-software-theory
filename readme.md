@@ -25,3 +25,17 @@
 ## Information retrieval
 
 1. [Deep Learning](./information-retrieval/deep_learning.md)
+
+## Distribution & Network
+
+1. [分散運算研究專案](https://github.com/eastmoon/research-distribution-calculation)
+2. [異步執行 ( Asynchronous execute )](./distribution-and-network/asynchronous-execute.md)
+3. Message Queue
+    + AMQP
+4. TCP/IP Protocols
+    + UDP
+    + TCP
+    + Socket
+    + HTTP
+        - HTTP State
+        - RestAPI
