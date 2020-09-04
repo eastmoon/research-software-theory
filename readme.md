@@ -31,7 +31,7 @@
 1. [分散運算研究專案](https://github.com/eastmoon/research-distribution-calculation)
 2. [異步執行 ( Asynchronous execute )](./distribution-and-network/asynchronous-execute.md)
 3. Message Queue
-    + AMQP
+    + AMQP，https://en.wikipedia.org/wiki/Advanced_Message_Queuing_Protocol
 4. TCP/IP Protocols
     + UDP
     + TCP
@@ -39,3 +39,11 @@
     + HTTP
         - HTTP State
         - RestAPI
+
+## Library research
+
+1. OpenCL
+    + https://zh.wikipedia.org/wiki/OpenCL
+2. PWA
+    + https://developers.google.com/web/ilt/pwa/introduction-to-progressive-web-app-architectures
+    + https://www.simicart.com/blog/pwa-vs-electron/
