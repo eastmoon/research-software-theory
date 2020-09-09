@@ -12,8 +12,7 @@
 4. [Architecture Pattern](./software-engineering/architecture_pattern.md)
     + [Interactive Architecture](./software-engineering/interactive_architecture.md)
     + [Dataflow Architecture](./software-engineering/dataflow_architecture.md)
-5. Design Methodologies
-    + [The Value at the Intersection of TDD, DDD, and BDD](https://medium.com/datadriveninvestor/da58ea1f3ac8)
+5. [Design Methodologies](./software-engineering/design_methodologies.md)
     + [Domain-driven design](./software-engineering/domain-driven-design.md)
 
 ## Computer vision
