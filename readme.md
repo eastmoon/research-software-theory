@@ -6,13 +6,13 @@
     + [Folder structure and namespace defined](./software-engineering/folder_structure_and_namespace_defined.md)
     + [Imperative and Declarative](./software-engineering/programming_paradigm_imperative_and_declarative.md)
     + [Reactive programming](./software-engineering/programming_paradigm_reactive_programming.md)
-2. [Event System](./software-engineering/event_system.md)
-    + [Event Listener implemented by Observer pattern](./software-engineering/event_listener_implemented_by_observer_pattern.md)
-3. [Design Pattern](./software-engineering/design_pattern.md)
-4. [Architecture Pattern](./software-engineering/architecture_pattern.md)
+2. [Design Pattern](./software-engineering/design_pattern.md)
+3. [Architecture Pattern](./software-engineering/architecture_pattern.md)
     + [Interactive Architecture](./software-engineering/interactive_architecture.md)
     + [Dataflow Architecture](./software-engineering/dataflow_architecture.md)
-5. [Design Methodologies](./software-engineering/design_methodologies.md)
+    + [Event-driven Architecture](./software-engineering/event_driven_architecture.md)
+        + [Event Listener implemented by Observer pattern](./software-engineering/event_listener_implemented_by_observer_pattern.md)
+4. [Design Methodologies](./software-engineering/design_methodologies.md)
     + [Domain-driven design](./software-engineering/domain-driven-design.md)
 
 ## Computer vision
