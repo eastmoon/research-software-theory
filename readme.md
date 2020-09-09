@@ -3,6 +3,7 @@
 ## Software engineering
 
 1. [Language, Script.](./software-engineering/language_and_script.md)
+    + [Folder structure and namespace defined](./software-engineering/folder_structure_and_namespace_defined.md)
     + [Imperative and Declarative](./software-engineering/programming_paradigm_imperative_and_declarative.md)
     + [Reactive programming](./software-engineering/programming_paradigm_reactive_programming.md)
 2. [Event System](./software-engineering/event_system.md)
@@ -11,7 +12,8 @@
 4. [Architecture Pattern](./software-engineering/architecture_pattern.md)
     + [Interactive Architecture](./software-engineering/interactive_architecture.md)
     + [Dataflow Architecture](./software-engineering/dataflow_architecture.md)
-5. [Folder structure and namespace defined](./software-engineering/folder_structure_and_namespace_defined.md)
+5. [The Value at the Intersection of TDD, DDD, and BDD](https://medium.com/datadriveninvestor/da58ea1f3ac8)
+    + [Domain-driven design](./software-engineering/domain-driven-design.md)
 
 ## Computer vision
 
