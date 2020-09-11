@@ -67,6 +67,7 @@ Aggreate 為領域驅動設計的設計樣式，其主旨在規範一個領域�
 
 + [Aggregates in Domain Driven Design](https://medium.com/ingeniouslysimple/5aab3ef9901d)
 + [領域驅動設計學習筆記（5）：Aggregate (上)](http://teddy-chen-tw.blogspot.com/2019/06/5aggregate.html)
++ [領域驅動設計學習筆記（6）：Aggregate (中)](http://teddy-chen-tw.blogspot.com/2019/07/6aggregate.html)
 + [領域驅動設計學習筆記（7）：Aggregate (下)](http://teddy-chen-tw.blogspot.com/2020/01/7aggregate.html)
 + [Design a microservice domain model](https://docs.microsoft.com/zh-tw/dotnet/architecture/microservices/microservice-ddd-cqrs-patterns/microservice-domain-model)
 
