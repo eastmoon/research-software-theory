@@ -11,8 +11,10 @@
     + [Interactive Architecture](./software-engineering/interactive_architecture.md)
     + [Dataflow Architecture](./software-engineering/dataflow_architecture.md)
     + [Event-driven Architecture](./software-engineering/event_driven_architecture.md)
-        + [Event Listener implemented by Observer pattern](./software-engineering/event_listener_implemented_by_observer_pattern.md)
+        - [Event Listener implemented by Observer pattern](./software-engineering/event_listener_implemented_by_observer_pattern.md)
 4. [Design Methodologies](./software-engineering/design_methodologies.md)
+    + [Clean Architecture](https://blog.cleancoder.com/uncle-bob/2012/08/13/the-clean-architecture.html)
+        - [再談Clean Architecture三原則](http://teddy-chen-tw.blogspot.com/2020/08/clean-architecture.html)
     + [Domain-driven design](./software-engineering/domain-driven-design.md)
 
 ## Computer vision
