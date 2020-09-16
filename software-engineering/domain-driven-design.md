@@ -4,9 +4,9 @@
 
 ### Repository
 
-**A data persistence abstraction**
+**『A data persistence abstraction』**
 
-**Mediates between the domain and data mapping layers using a collection-like interface for accessing domain objects.**
+**『Mediates between the domain and data mapping layers using a collection-like interface for accessing domain objects.』**
 
 Repository 為封裝資料實際存取手段的中介物件；在不同的設計細節上，外部程式是透過 Repository 來取得資料，然而取得的資料是源自快取記憶體或雲端資料則取決於被 Repository 封裝的實際存取手段。
 
@@ -18,7 +18,7 @@ Repository 為封裝資料實際存取手段的中介物件；在不同的設計
 
 ### Unit of Work
 
-**Maintains a list of objects affected by a business transaction and coordinates the writing out of changes and the resolution of concurrency problems.**
+**『Maintains a list of objects affected by a business transaction and coordinates the writing out of changes and the resolution of concurrency problems.』**
 
 Unit of Work 為異步資料源存取衝突時，如何維護受存取的列表可正常運作。
 
@@ -52,9 +52,9 @@ uow.commit();
 
 ### Aggregate
 
-**Aggregates are the basic element of transfer of data storage — you request to load or save whole aggregates. Transactions should not cross aggregate boundaries.**
+**『Aggregates are the basic element of transfer of data storage — you request to load or save whole aggregates. Transactions should not cross aggregate boundaries.』**
 
-**1 Aggregate = 1 Repository**
+**『1 Aggregate = 1 Repository』**
 
 Aggreate 為領域驅動設計的設計樣式，其主旨在規範一個領域模組的邊界。
 
@@ -74,6 +74,10 @@ Aggreate 為領域驅動設計的設計樣式，其主旨在規範一個領域�
 ## 參考
 
 + [Domain-driven design Wiki](https://en.wikipedia.org/wiki/Domain-driven_design)
+    - [Teddy 搞笑談軟功](http://teddy-chen-tw.blogspot.com/)
+        + [領域驅動設計學習筆記（1）：學習的切入角度（上）](http://teddy-chen-tw.blogspot.com/2016/08/1.html)
+        + [領域驅動設計學習筆記（2）：學習的切入角度（下）](http://teddy-chen-tw.blogspot.com/2016/08/2.html)
+        + [如何閱讀模型驅動設計建構區塊的模式語言](http://teddy-chen-tw.blogspot.com/2019/12/blog-post_6.html)
 + [Architecture Pattern with Python](https://www.amazon.com/Architecture-Patterns-Python-Domain-Driven-Microservices/dp/1492052205)
     - Create domain-model to support architecture.
         + Repository，封裝資料存取方方法
@@ -84,3 +88,6 @@ Aggreate 為領域驅動設計的設計樣式，其主旨在規範一個領域�
         + Command，異步事件驅動應採用命令區隔
         + CQRS，建立讀寫分離機制
         + Dependency Injection，規劃相依注入來達到規劃系統的運作與測試狀態
++ [Domain Driven Design 簡介和為什麼你需要DDD](https://medium.com/%E7%A7%91%E6%8A%80%E6%96%B0%E6%83%B3/ddd-6cf4ceed6088)
++ [Domain Driven Design (DDD)in Microservice architecture in a nutshell](https://medium.com/@jpdeffo/19c7c579009a)
++ [MartinFowler tagged by: domain driven design](https://martinfowler.com/tags/domain%20driven%20design.html)
