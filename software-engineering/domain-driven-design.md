@@ -54,7 +54,25 @@ Concepts of the DDD include:
 
 ### Entity
 
+**『Many objects are not fundamentally defined by their attributes, but rather by a thread of continuity and identity.』 - from Evans**
+
+Entity 為一設計概念，其主旨在規範何謂實體 ( Entity )。
+
+在文獻中提到一觀點，兩個人的實體 ( Entity ) 若具有相同名稱是否表示實體相同，若不是則應如何將其區分；這也對應 Evans 書中提到的定義，物件並非基於其屬性來定義而是基於一連續性編號，例如人的實體由系統標記上的辨識序號。
+
++ [Entities, Value Objects, Aggregates and Roots](https://lostechies.com/jimmybogard/2008/05/21/entities-value-objects-aggregates-and-roots/)
+
 ### Value object
+
+**『Many objects have no conceptual identity.  These objects describe characteristics of a thing.』 - from Evans**
+
+**『An object that contains attributes but has no conceptual identity. They should be treated as immutable.』**
+
+Value object 為一設計概念，其主旨在規範何謂數值物件 ( Value object )。
+
+在文獻中提到一觀點，若針對一個詞彙，且無需顧慮辨識，則該詞彙為數值物件，且為不可變 ( immutable )；數值物件在解釋上很廣泛，因此容易過度使用，適當的設計是基於統一語言內的術語來定義，並確保領域專家能從模組中辨識出。
+
++ [Entities, Value Objects, Aggregates and Roots](https://lostechies.com/jimmybogard/2008/05/21/entities-value-objects-aggregates-and-roots/)
 
 ### Aggregate
 
@@ -76,10 +94,6 @@ Aggreate 為領域驅動設計的設計樣式，其主旨在規範一個領域�
 + [領域驅動設計學習筆記（6）：Aggregate (中)](http://teddy-chen-tw.blogspot.com/2019/07/6aggregate.html)
 + [領域驅動設計學習筆記（7）：Aggregate (下)](http://teddy-chen-tw.blogspot.com/2020/01/7aggregate.html)
 + [Design a microservice domain model](https://docs.microsoft.com/zh-tw/dotnet/architecture/microservices/microservice-ddd-cqrs-patterns/microservice-domain-model)
-
-### Domain Event
-
-### Service
 
 ### Repository
 
@@ -151,3 +165,10 @@ uow.commit();
         + Dependency Injection，規劃相依注入來達到規劃系統的運作與測試狀態
 + [Domain Driven Design (DDD)in Microservice architecture in a nutshell](https://medium.com/@jpdeffo/19c7c579009a)
 + [MartinFowler tagged by: domain driven design](https://martinfowler.com/tags/domain%20driven%20design.html)
++ Domain-driven design pattern
+    - Domain Event
+        + [Domain Events vs. Event Sourcing](https://www.innoq.com/en/blog/domain-events-versus-event-sourcing/)
+        + [Domain events: design and implementation](https://docs.microsoft.com/zh-tw/dotnet/architecture/microservices/microservice-ddd-cqrs-patterns/domain-events-design-implementation)
+    - Service
+        + [Services in Domain-Driven Design](https://lostechies.com/jimmybogard/2008/08/21/services-in-domain-driven-design/)
+        + [Services in Domain-Driven Design (DDD)](http://gorodinski.com/blog/2012/04/14/services-in-domain-driven-design-ddd/)
