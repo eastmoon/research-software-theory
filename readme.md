@@ -25,7 +25,7 @@
 </center>
 
 1. 版本控制
-    + [Git 議題](./software-engineering/git-issue.md)
+    + [Git 議題](./development-operations/git-issue.md)
 
 
 ## Computer vision
