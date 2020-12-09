@@ -18,6 +18,16 @@
         - [再談Clean Architecture三原則](http://teddy-chen-tw.blogspot.com/2020/08/clean-architecture.html)
     + [Domain-driven design](./software-engineering/domain-driven-design.md)
 
+## Development Operations
+
+<center>
+    <img src="./development-operations/img/devops-concept.png" alt="devops concept picture" />
+</center>
+
+1. 版本控制
+    + [Git 議題](./software-engineering/git-issue.md)
+
+
 ## Computer vision
 
 1. [Scale-invariant feature transform](./computer-vision/Scale-invariant_feature_transform.md)
