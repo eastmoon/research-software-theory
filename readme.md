@@ -6,6 +6,7 @@
     + [Folder structure and namespace defined](./software-engineering/folder_structure_and_namespace_defined.md)
     + [Imperative and Declarative](./software-engineering/programming_paradigm_imperative_and_declarative.md)
     + [Reactive programming](./software-engineering/programming_paradigm_reactive_programming.md)
+    + [Cross Compiler](./software-engineering/cross_compiler.md)
 2. [Design Pattern](./software-engineering/design_pattern.md)
 3. [Architecture Pattern](./software-engineering/architecture_pattern.md)
     + [Interactive Architecture](./software-engineering/interactive_architecture.md)
