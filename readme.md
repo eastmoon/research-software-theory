@@ -24,10 +24,9 @@
     <img src="./development-operations/img/devops-concept.png" alt="devops concept picture" />
 </center>
 
-1. 版本控制
+1. [軟體配置管理 ( SCM、Software Configuration Management )](https://zh.wikipedia.org/wiki/%E8%BD%AF%E4%BB%B6%E9%85%8D%E7%BD%AE%E7%AE%A1%E7%90%86)
     + [Git 議題](./development-operations/git-issue.md)
-
-
+  
 ## Computer vision
 
 1. [Scale-invariant feature transform](./computer-vision/Scale-invariant_feature_transform.md)
@@ -54,6 +53,10 @@
     + HTTP
         - HTTP State
         - RestAPI
+5. [Internet of Things](https://zh.wikipedia.org/wiki/%E7%89%A9%E8%81%94%E7%BD%91)
+    + [軟體即服務 ( SaaS、Software as a Service )](https://zh.wikipedia.org/wiki/%E8%BD%AF%E4%BB%B6%E5%8D%B3%E6%9C%8D%E5%8A%A1)
+    + [平台即服務 ( PaaS、Platform as a Service )](https://zh.wikipedia.org/wiki/%E5%B9%B3%E5%8F%B0%E5%8D%B3%E6%9C%8D%E5%8A%A1)
+    + [基礎設施即服務 ( IaaS、Infrastructure as a Service )](https://zh.wikipedia.org/wiki/%E5%9F%BA%E7%A4%8E%E8%A8%AD%E6%96%BD%E5%8D%B3%E6%9C%8D%E5%8B%99)
 
 ## Library research
 
