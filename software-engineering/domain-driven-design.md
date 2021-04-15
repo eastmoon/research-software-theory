@@ -153,6 +153,11 @@ uow.commit();
     - [Domain Driven Design 簡介和為什麼你需要DDD](https://medium.com/%E7%A7%91%E6%8A%80%E6%96%B0%E6%83%B3/ddd-6cf4ceed6088)
         + [第一步：了解價值鏈與定義領域模型](https://medium.com/%E7%A7%91%E6%8A%80%E6%96%B0%E6%83%B3/b60bb817f43d)
         + [第二步：Bounded Contexts 和其應用](https://medium.com/%E7%A7%91%E6%8A%80%E6%96%B0%E6%83%B3/75c5780dab49)
+    - 阿里技術專家詳解 DDD 系列
+        + [Domain Primitive](https://www.readfog.com/a/1630206755447345152)
+        + [應用架構](https://www.readfog.com/a/1630206911045537792)
+        + [Repository](https://www.readfog.com/a/1630208369217343488)
+        + [領域層設計規範](https://www.readfog.com/a/1630208703488692224)
 + [Architecture Pattern with Python](https://www.amazon.com/Architecture-Patterns-Python-Domain-Driven-Microservices/dp/1492052205)
     - Create domain-model to support architecture.
         + Repository，封裝資料存取方方法
