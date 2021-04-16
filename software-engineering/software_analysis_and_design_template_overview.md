@@ -6,11 +6,11 @@
 
 ## 需求概述 ( Requirements Overview )
 
-描述此專案 / 功能的需求概述，此段應基於簡述的規劃資料，將其整理並抽象設計後的描述；此處亦可使用 [Scrum User Stroy](https://ihower.tw/blog/archives/2090) 描述。
+描述此專案 / 功能的需求概述，此段應基於簡述的規劃資料，將其整理並抽象設計後的描述；此處亦可使用 [User Stroy](https://zh.wikipedia.org/wiki/%E7%94%A8%E6%88%B7%E6%95%85%E4%BA%8B) 描述。
 
 ## 設計項目 ( Design Project )
 
-描述此專案 / 功能的設計概述與相關列表；此處應使用 UML 圖像來強化設計概念的描述。
+描述此專案 / 功能的設計概述與相關列表；此處亦可使用 UML 圖像來強化設計概念的描述。
 
 + 行為類
   - [案例圖 ( Use Case Diagram )](https://www.visual-paradigm.com/guide/uml-unified-modeling-language/what-is-use-case-diagram/)
