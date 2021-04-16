@@ -17,7 +17,7 @@
 + [Software Design Overview Docuemnt](./software_analysis_and_design_template_overview.md)
 + [Software Design Docuemnt](./software_analysis_and_design_template_ssd.md)
 
-#### User story
+### User story
 
 用戶故事 ( User story ) 是以日常語言或商務用語撰寫句子，是一段簡單的功能表述，以客戶或使用者的觀點撰寫下有價值的功能、引導、框架來與使用者進行互動；對於用戶故事說它是規格文件，不如說它代表客戶的一個需求列項而已，因為實做細節將延後至開發時才會確定。
 
@@ -33,7 +33,7 @@
 
 需注意，用戶故事的故事粒度往往會對等實務的複雜度，亦可等同開發時程；因此，精確的切割容易明確預估時程，但亦表示冗長討論與衝突排解過程，從而拉長評估時程而減少開發時程，這是在撰寫與規劃時應避免的問題。
 
-#### Use Case
+### Use Case
 
 使用案例 ( Use Case ) 是 **『使用 ( Use ) 此系統的互動、操作範例 ( Case )』**，亦即對於相同系統，考量不同使用者在此系統會產生的使用案例；案例本身是個使用者與系統的互動行為，其案例描述會包括如下：
 
@@ -44,7 +44,7 @@
 
 需注意，使用案例的描述是貼近實務面的規範，並不等同程式碼，因此，部分文獻會提到其描述、流程不具順序性，僅有描述性；然而，實際的撰寫方式仍視撰寫者的描述需要而定，若案例的粒度夠細，則其描述性本身就會具有順序性。
 
-#### User Story v.s Use Case
+### User Story v.s Use Case
 
 調研不同文獻可以注意到，此兩類文件呈述方式皆有其優點與缺點，但兩者本身並不可替換 ( not interchangeable )，但可相互輔助。
 
