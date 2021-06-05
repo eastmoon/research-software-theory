@@ -14,6 +14,6 @@ HTTP 狀態碼說明一個 HTTP Request 是否已經被完成，其訊息回應�
                 
 ## 參考
 
-[HTTP 狀態碼 - MDN Web Doc](https://developer.mozilla.org/zh-TW/docs/Web/HTTP/Status)
-[HTTP狀態碼 - wiki](https://zh.wikipedia.org/wiki/HTTP%E7%8A%B6%E6%80%81%E7%A0%81)
-[HTTP Status Codes Decision Diagram – Infographic](https://www.loggly.com/blog/http-status-code-diagram/?fbclid=IwAR3nmQk4mcozTWkqHy_yY_Dj2oXJsQaEcKLU7hlyQZu9SHTlC7jteToakQg)
++ [HTTP 狀態碼 - MDN Web Doc](https://developer.mozilla.org/zh-TW/docs/Web/HTTP/Status)
++ [HTTP狀態碼 - wiki](https://zh.wikipedia.org/wiki/HTTP%E7%8A%B6%E6%80%81%E7%A0%81)
++ [HTTP Status Codes Decision Diagram – Infographic](https://www.loggly.com/blog/http-status-code-diagram/?fbclid=IwAR3nmQk4mcozTWkqHy_yY_Dj2oXJsQaEcKLU7hlyQZu9SHTlC7jteToakQg)
