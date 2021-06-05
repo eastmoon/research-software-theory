@@ -19,6 +19,8 @@
     + [Clean Architecture](https://blog.cleancoder.com/uncle-bob/2012/08/13/the-clean-architecture.html)
         - [再談Clean Architecture三原則](http://teddy-chen-tw.blogspot.com/2020/08/clean-architecture.html)
     + [Domain-driven design](./software-engineering/domain-driven-design.md)
+    + [Aspect-oriented programming](https://en.wikipedia.org/wiki/Aspect-oriented_programming)
+        - [來談談 AOP (Aspect-Oriented Programming) 的精神與各種主流實現模式的差異](https://medium.com/cymetrics/aop-caf6a403e07f)
 
 ## Development Operations
 
@@ -58,7 +60,7 @@
     + TCP
     + Socket
     + HTTP
-        - HTTP State
+        - [HTTP State](./distribution-and-network/http-state.md)
         - RestAPI
 5. [Internet of Things](https://zh.wikipedia.org/wiki/%E7%89%A9%E8%81%94%E7%BD%91)
     + [OOSGA 物聯網定義與趨勢](https://oosga.com/iot/)
