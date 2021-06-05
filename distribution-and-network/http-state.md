@@ -1,9 +1,9 @@
 # HTTP 狀態 ( HTTP State )
 
-<table>
+<table board=0>
     <tr>
-        <td><img src="./img/http-decision-diagram.png" width="50%"/></td>
-        <td>
+        <td width="30%"><img src="./img/http-decision-diagram.png" /></td>
+        <td width="70%>
             1
             2
             3
