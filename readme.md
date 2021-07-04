@@ -15,6 +15,7 @@
     + [Dataflow Architecture](./software-engineering/dataflow_architecture.md)
     + [Event-driven Architecture](./software-engineering/event_driven_architecture.md)
         - [Event Listener implemented by Observer pattern](./software-engineering/event_listener_implemented_by_observer_pattern.md)
+    + [Microservice Architecture](./software-engineering/microservice_architecture.md)
 5. [Design Methodologies](./software-engineering/design_methodologies.md)
     + [Clean Architecture](https://blog.cleancoder.com/uncle-bob/2012/08/13/the-clean-architecture.html)
         - [再談Clean Architecture三原則](http://teddy-chen-tw.blogspot.com/2020/08/clean-architecture.html)
@@ -61,7 +62,8 @@
     + Socket
     + HTTP
         - [HTTP State](./distribution-and-network/http-state.md)
-        - RestAPI
+        - [RestAPI](https://zh.wikipedia.org/wiki/%E8%A1%A8%E7%8E%B0%E5%B1%82%E7%8A%B6%E6%80%81%E8%BD%AC%E6%8D%A2)
+            + [淺談 REST API 的設計和規劃](https://marco79423.net/articles/%E6%B7%BA%E8%AB%87-rest-api-%E7%9A%84%E8%A8%AD%E8%A8%88%E5%92%8C%E8%A6%8F%E5%8A%83/)
 5. [Internet of Things](https://zh.wikipedia.org/wiki/%E7%89%A9%E8%81%94%E7%BD%91)
     + [OOSGA 物聯網定義與趨勢](https://oosga.com/iot/)
     + 美國國家標準暨技術研究院（NIST）對於雲端運算的定義：
