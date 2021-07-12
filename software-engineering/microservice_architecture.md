@@ -85,3 +85,5 @@ Microservice Architecture is not [Service-Oriented Architecture](https://zh.wiki
     - [瞭解微服務架構 - Oracle Cloud](https://docs.oracle.com/zh-tw/solutions/learn-architect-microservice/index.html#GUID-BDCEFE30-C883-45D5-B2E6-325C241388A5)
     - [什麼是微型服務？ - AWS](https://aws.amazon.com/tw/microservices/)
     - [走入軟體架構演進史　見證微服務發展今昔](https://www.netadmin.com.tw/netadmin/zh-tw/technology/1716C14FB29749B68D8E74C93ACA6263)
+    - [嫻熟微服務架構運作　方能建構可靠安全系統](https://www.netadmin.com.tw/netadmin/zh-tw/technology/0FCEF017F1734985804D3777C8478605)
+    - [Overload Control for Scaling WeChat Microservices](https://zhuanlan.zhihu.com/p/84415217)
