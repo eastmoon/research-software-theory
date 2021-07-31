@@ -12,6 +12,7 @@
 ![Monolithic and Microservice](img/microservice_architecture-monolith-and-microservices.png)
 > from [什麼是微型服務？ - AWS](https://aws.amazon.com/tw/microservices/)
 
+
 | 特性 | Microservice | Monolithic |
 | :-: | :----: | :----: |
 | 單位設計	| 此應用程式包含鬆耦合的服務。每項服務都支援單一商業工作。	| 整個應用程式都是以單一單位設計、開發和建置。
@@ -24,6 +25,10 @@
 | 復原能力	| 應用程式功能會分配至多個服務。如果微服務失敗，其他微服務所提供的功能仍可使用。	| 任何元件的失敗都會影響整個應用程式的使用狀態。
 | 擴展性	| 每個微服務都可以獨立於其他服務之外進行擴展。	| 整個應用程式必須調整規模，即使業務需求僅適用於應用程式的特定部分。
 > Reference from [瞭解微服務架構 - Oracle Cloud](https://docs.oracle.com/zh-tw/solutions/learn-architect-microservice/index.html#GUID-BDCEFE30-C883-45D5-B2E6-325C241388A5) and [Microservices, Martin Fowler and James Lewis, 2014](https://martinfowler.com/articles/microservices.html)
+
+![Monolithic and Microservice develop feature](img/microservice_architecture-monolith-and-microservices-develop.png)
+![Monolithic and Microservice feature](img/microservice_architecture-monolith-and-microservices-feature.png)
+> Reference from [軟體設計鮮思維社團](https://www.facebook.com/groups/softthinking/permalink/1657246364480927)
 
 ### Service architecture
 
@@ -87,3 +92,4 @@ Microservice Architecture is not [Service-Oriented Architecture](https://zh.wiki
     - [走入軟體架構演進史　見證微服務發展今昔](https://www.netadmin.com.tw/netadmin/zh-tw/technology/1716C14FB29749B68D8E74C93ACA6263)
     - [嫻熟微服務架構運作　方能建構可靠安全系統](https://www.netadmin.com.tw/netadmin/zh-tw/technology/0FCEF017F1734985804D3777C8478605)
     - [Overload Control for Scaling WeChat Microservices](https://zhuanlan.zhihu.com/p/84415217)
++ [Microservices Authentication and Authorization Solutions](https://medium.com/tech-tajawal/e0e5e74b248a)
