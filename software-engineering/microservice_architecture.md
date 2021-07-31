@@ -26,8 +26,8 @@
 | 擴展性	| 每個微服務都可以獨立於其他服務之外進行擴展。	| 整個應用程式必須調整規模，即使業務需求僅適用於應用程式的特定部分。
 > Reference from [瞭解微服務架構 - Oracle Cloud](https://docs.oracle.com/zh-tw/solutions/learn-architect-microservice/index.html#GUID-BDCEFE30-C883-45D5-B2E6-325C241388A5) and [Microservices, Martin Fowler and James Lewis, 2014](https://martinfowler.com/articles/microservices.html)
 
-![Monolithic and Microservice develop feature](img/microservice_architecture-monolith-and-microservices-develop.png)
-![Monolithic and Microservice feature](img/microservice_architecture-monolith-and-microservices-feature.png)
+![Monolithic and Microservice develop feature](img/microservice_architecture-monolith-and-microservices-develop.jpg)
+![Monolithic and Microservice feature](img/microservice_architecture-monolith-and-microservices-feature.jpg)
 > Reference from [軟體設計鮮思維社團](https://www.facebook.com/groups/softthinking/permalink/1657246364480927)
 
 ### Service architecture
