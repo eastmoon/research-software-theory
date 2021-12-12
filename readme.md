@@ -40,6 +40,7 @@
 ## Computer graphics
 
 1. [Concept, Light](./computer-graphics/concept_and_light.md)
+    + [Mobile GPU Tile Based Rendering 介紹](https://medium.com/%E4%BA%8C%E6%B5%81%E9%81%8A%E6%88%B2%E9%96%8B%E7%99%BC/796f0eb1bbc)
 
 ## Information retrieval
 
@@ -48,7 +49,9 @@
     + [2NF：符合 1NF，將部分相依的資料另開表格作儲存，確保每一非鍵值欄位必須「完全功能相依」( Functional Dependency ) 於主鍵](https://progressbar.tw/posts/267)
     + [3NF：符合 2NF，且每一個非鍵值欄位都必須不得和其他非鍵值欄位產生相關性；欄位避免由其他欄位計算所得，從而迴避「更新異常」(Modification Anomalies)](https://progressbar.tw/posts/270)
     + [4NF](https://zh.wikipedia.org/wiki/%E7%AC%AC%E5%9B%9B%E6%AD%A3%E8%A6%8F%E5%8C%96)、[5NF](https://zh.wikipedia.org/wiki/%E7%AC%AC%E4%BA%94%E8%8C%83%E5%BC%8F) 需基於在資料面的應用特例，用於加強分離數據
-2. [Deep Learning](./information-retrieval/deep_learning.md)
+2. [Database Management System、DBMS](https://zh.wikipedia.org/wiki/%E6%95%B0%E6%8D%AE%E5%BA%93%E7%AE%A1%E7%90%86%E7%B3%BB%E7%BB%9F)
+    + [MySQL(MariaDB) InnoDB Clustered Index & Secondary Index](https://medium.com/into-the-night/mysql-mariadb-innodb-clustered-index-secondary-index-45dc8335859c)
+3. [Deep Learning](./information-retrieval/deep_learning.md)
 
 ## Distribution & Network
 
@@ -78,3 +81,8 @@
 2. PWA
     + https://developers.google.com/web/ilt/pwa/introduction-to-progressive-web-app-architectures
     + https://www.simicart.com/blog/pwa-vs-electron/
+
+## Reference Document
+
++ [Record CS knowlegement with XMind](https://github.com/SmartKeyerror/Psyduck)
+    - 綜合知識文獻專案
