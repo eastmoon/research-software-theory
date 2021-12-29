@@ -86,3 +86,7 @@
 
 + [Record CS knowlegement with XMind](https://github.com/SmartKeyerror/Psyduck)
     - 綜合知識文獻專案
++ [What is the difference between executing a Bash script vs sourcing it?](https://superuser.com/questions/176783)
+    - **Sourcing** a script will run the commands in the current shell process. Changes to the environment take effect in the current shell.
+    - **Executing** a script will run the commands in a new shell process. Changes to the environment take effect in the new shell and is lost when the script is done and the new shell is terminated.
+    - Use source if you want the script to change the environment in your currently running shell. use execute otherwise.
