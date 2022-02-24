@@ -59,16 +59,22 @@
 2. [異步執行 ( Asynchronous execute )](./distribution-and-network/asynchronous-execute.md)
 3. Message Queue
     + AMQP，https://en.wikipedia.org/wiki/Advanced_Message_Queuing_Protocol
-4. TCP/IP Protocols
-    + UDP
-    + TCP
-    + Socket
-    + HTTP
+4. [OSI](./distribution-and-network/osi-model.md)
+    + [TCP vs UDP](https://nordvpn.com/zh-tw/blog/tcp-udp-bijiao/)
+        - [Transmission Control Protocol、TCP wiki](https://zh.wikipedia.org/wiki/%E4%BC%A0%E8%BE%93%E6%8E%A7%E5%88%B6%E5%8D%8F%E8%AE%AE)
+        - [User Datagram Protocol、UDP wiki](https://zh.wikipedia.org/wiki/%E7%94%A8%E6%88%B7%E6%95%B0%E6%8D%AE%E6%8A%A5%E5%8D%8F%E8%AE%AE)
+        - 原則上，TCP 為『可靠通訊』，UDP 為『不可靠通訊』，其差別在 TCP 基於檢查碼有序的傳輸，但 UDP 是以串流封包單向的廣播近網路
+    + [Socket vs MQTT](https://www.educba.com/mqtt-vs-websocket/)
+        - [Socket wiki](https://zh.wikipedia.org/wiki/%E7%B6%B2%E8%B7%AF%E6%8F%92%E5%BA%A7)；**Websocket is a computer communication protocol. It creates a two-way channel between a web browser and a server.**
+        - [MQTT wiki](https://zh.wikipedia.org/wiki/MQTT)；**MQTT (Message Queue Telemetry Transmission) uses the publish/subscribe network protocol, which is used to transport messages between devices directly in the web browser.**
+        - Socket 是基於點對點通訊，MQTT 基於訂閱 ( subscribe ) 與發佈 ( publish )；相較通訊上 Socket 是基於 TCP 規則的簡化，而 MQTT 是基於 Socket 設計的簡化，可以說 MQTT 效率高於 Socket 則是因為功能與用途更加明確的精簡設計導致
+    + [Socket vs HTTP](https://www.geeksforgeeks.org/what-is-web-socket-and-how-it-is-different-from-the-http/)
         - [HTTP State](./distribution-and-network/http-state.md)
         - [RestAPI](https://zh.wikipedia.org/wiki/%E8%A1%A8%E7%8E%B0%E5%B1%82%E7%8A%B6%E6%80%81%E8%BD%AC%E6%8D%A2)
             + [淺談 REST API 的設計和規劃](https://marco79423.net/articles/%E6%B7%BA%E8%AB%87-rest-api-%E7%9A%84%E8%A8%AD%E8%A8%88%E5%92%8C%E8%A6%8F%E5%8A%83/)
 5. [Internet of Things](https://zh.wikipedia.org/wiki/%E7%89%A9%E8%81%94%E7%BD%91)
     + [OOSGA 物聯網定義與趨勢](https://oosga.com/iot/)
+    + [SAP 什麼是物聯網（IoT）？](https://www.sap.com/taiwan/insights/what-is-iot-internet-of-things.html)
     + 美國國家標準暨技術研究院（NIST）對於雲端運算的定義：
         - [軟體即服務 ( SaaS、Software as a Service )](https://zh.wikipedia.org/wiki/%E8%BD%AF%E4%BB%B6%E5%8D%B3%E6%9C%8D%E5%8A%A1)
         - [平台即服務 ( PaaS、Platform as a Service )](https://zh.wikipedia.org/wiki/%E5%B9%B3%E5%8F%B0%E5%8D%B3%E6%9C%8D%E5%8A%A1)
@@ -90,3 +96,9 @@
     - **Sourcing** a script will run the commands in the current shell process. Changes to the environment take effect in the current shell.
     - **Executing** a script will run the commands in a new shell process. Changes to the environment take effect in the new shell and is lost when the script is done and the new shell is terminated.
     - Use source if you want the script to change the environment in your currently running shell. use execute otherwise.
+
+## Operating system performance adjustment
+
++ Windows
+    - [連接用户體驗和遙測服務 (Connected User Experiences and Telemetry)](https://snippetinfo.net/media/1880)
+    - [微軟兼容性遙測服務 (Microsoft Compatibility Telemetry)](https://tw.easeus.com/partition-manager-tips/fix-windows-10-microsoft-compatibility-telemetry-high-disk-usage.html#3)
