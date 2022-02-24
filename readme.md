@@ -44,13 +44,21 @@
 
 ## Information retrieval
 
-1. [Database Normalization](https://zh.wikipedia.org/wiki/%E6%95%B0%E6%8D%AE%E5%BA%93%E8%A7%84%E8%8C%83%E5%8C%96)
-    + [1NF：定義主鍵值 ( primary key或unique key ) 以及剔除重複資料，來打好資料表的基礎](https://progressbar.tw/posts/265)
-    + [2NF：符合 1NF，將部分相依的資料另開表格作儲存，確保每一非鍵值欄位必須「完全功能相依」( Functional Dependency ) 於主鍵](https://progressbar.tw/posts/267)
-    + [3NF：符合 2NF，且每一個非鍵值欄位都必須不得和其他非鍵值欄位產生相關性；欄位避免由其他欄位計算所得，從而迴避「更新異常」(Modification Anomalies)](https://progressbar.tw/posts/270)
-    + [4NF](https://zh.wikipedia.org/wiki/%E7%AC%AC%E5%9B%9B%E6%AD%A3%E8%A6%8F%E5%8C%96)、[5NF](https://zh.wikipedia.org/wiki/%E7%AC%AC%E4%BA%94%E8%8C%83%E5%BC%8F) 需基於在資料面的應用特例，用於加強分離數據
-2. [Database Management System、DBMS](https://zh.wikipedia.org/wiki/%E6%95%B0%E6%8D%AE%E5%BA%93%E7%AE%A1%E7%90%86%E7%B3%BB%E7%BB%9F)
-    + [MySQL(MariaDB) InnoDB Clustered Index & Secondary Index](https://medium.com/into-the-night/mysql-mariadb-innodb-clustered-index-secondary-index-45dc8335859c)
+1. [RDBMS](https://zh.wikipedia.org/wiki/%E5%85%B3%E7%B3%BB%E6%95%B0%E6%8D%AE%E5%BA%93)
+    + [ACID wiki](https://zh.wikipedia.org/wiki/%E6%95%B0%E6%8D%AE%E5%BA%93%E4%BA%8B%E5%8A%A1#ACID%E6%80%A7%E8%B4%A8)
+    + [Database Normalization](https://zh.wikipedia.org/wiki/%E6%95%B0%E6%8D%AE%E5%BA%93%E8%A7%84%E8%8C%83%E5%8C%96)
+        - [1NF：定義主鍵值 ( primary key或unique key ) 以及剔除重複資料，來打好資料表的基礎](https://progressbar.tw/posts/265)
+        - [2NF：符合 1NF，將部分相依的資料另開表格作儲存，確保每一非鍵值欄位必須「完全功能相依」( Functional Dependency ) 於主鍵](https://progressbar.tw/posts/267)
+        - [3NF：符合 2NF，且每一個非鍵值欄位都必須不得和其他非鍵值欄位產生相關性；欄位避免由其他欄位計算所得，從而迴避「更新異常」(Modification Anomalies)](https://progressbar.tw/posts/270)
+        - [4NF](https://zh.wikipedia.org/wiki/%E7%AC%AC%E5%9B%9B%E6%AD%A3%E8%A6%8F%E5%8C%96)、[5NF](https://zh.wikipedia.org/wiki/%E7%AC%AC%E4%BA%94%E8%8C%83%E5%BC%8F) 需基於在資料面的應用特例，用於加強分離數據
+    + [Database Management System、DBMS](https://zh.wikipedia.org/wiki/%E6%95%B0%E6%8D%AE%E5%BA%93%E7%AE%A1%E7%90%86%E7%B3%BB%E7%BB%9F)
+        - [MySQL(MariaDB) InnoDB Clustered Index & Secondary Index](https://medium.com/into-the-night/mysql-mariadb-innodb-clustered-index-secondary-index-45dc8335859c)
+        - [什麼是 OLTP？什麼是 OLAP？](https://datadrivenai.wordpress.com/2019/11/01/%E4%BB%80%E9%BA%BC%E6%98%AF-oltp%EF%BC%9F%E4%BB%80%E9%BA%BC%E6%98%AF-olap%EF%BC%9F/)
+2. [NoSQL](https://zh.wikipedia.org/wiki/NoSQL)
+    + [CAP wiki](https://zh.wikipedia.org/wiki/CAP%E5%AE%9A%E7%90%86)
+    + [了解NoSQL不可不知的5項觀念](https://www.ithome.com.tw/news/92506)
+3. [RDBMS vs NoSQL](https://shininglionking.blogspot.com/2018/04/rdbms-vs-nosql.html)
+    + [RDBMS vs. NOSQL | 關聯式資料庫 vs. 非關聯式資料庫](https://medium.com/@eric248655665/1423c9fbb91a)
 3. [Deep Learning](./information-retrieval/deep_learning.md)
 
 ## Distribution & Network
