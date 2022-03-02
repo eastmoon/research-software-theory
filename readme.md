@@ -31,6 +31,8 @@
 
 1. [軟體配置管理 ( SCM、Software Configuration Management )](https://zh.wikipedia.org/wiki/%E8%BD%AF%E4%BB%B6%E9%85%8D%E7%BD%AE%E7%AE%A1%E7%90%86)
     + [Git 議題](./development-operations/git-issue.md)
+2. [Cross Compile](https://github.com/eastmoon/tutorial-cmake#%E4%BA%A4%E5%8F%89%E7%B7%A8%E8%AD%AF%E5%99%A8--cross-compiler-)
+    + [安裝 arm64 套件於 amd64 環境](./development-operations/cross-package-install.md)
 
 ## Computer vision
 
