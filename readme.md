@@ -106,6 +106,7 @@
     - **Sourcing** a script will run the commands in the current shell process. Changes to the environment take effect in the current shell.
     - **Executing** a script will run the commands in a new shell process. Changes to the environment take effect in the new shell and is lost when the script is done and the new shell is terminated.
     - Use source if you want the script to change the environment in your currently running shell. use execute otherwise.
++ [AI Expert Roadmap](https://i.am.ai/roadmap/#deep-learning-roadmap)
 
 ## Operating system performance adjustment
 
