@@ -50,7 +50,7 @@
 ## Information retrieval
 
 1. [Database](https://zh.wikipedia.org/wiki/%E6%95%B0%E6%8D%AE%E5%BA%93)
-    +[RDBMS](https://zh.wikipedia.org/wiki/%E5%85%B3%E7%B3%BB%E6%95%B0%E6%8D%AE%E5%BA%93)
+    + [RDBMS](https://zh.wikipedia.org/wiki/%E5%85%B3%E7%B3%BB%E6%95%B0%E6%8D%AE%E5%BA%93)
         - [ACID wiki](https://zh.wikipedia.org/wiki/%E6%95%B0%E6%8D%AE%E5%BA%93%E4%BA%8B%E5%8A%A1#ACID%E6%80%A7%E8%B4%A8)
         - [Database Normalization](https://zh.wikipedia.org/wiki/%E6%95%B0%E6%8D%AE%E5%BA%93%E8%A7%84%E8%8C%83%E5%8C%96)
             + [1NF：定義主鍵值 ( primary key或unique key ) 以及剔除重複資料，來打好資料表的基礎](https://progressbar.tw/posts/265)
