@@ -69,8 +69,11 @@
     + [Pattern recognition](https://zh.wikipedia.org/wiki/%E6%A8%A1%E5%BC%8F%E8%AF%86%E5%88%AB)
     + [Machine Learning and Deep Learnin : a survey](https://link.springer.com/article/10.1007/s10462-018-09679-z)
         - Machine Learning
-            + [infra-weka](https://github.com/eastmoon/infra-weka)
+            + [Scikit-learn](https://github.com/eastmoon/docker-jupyter-webapp)
+            + [Weka](https://github.com/eastmoon/infra-weka)
         - [Deep Learning](./information-retrieval/deep_learning.md)
+            + TensorFlow
+            + PyTorch
 
 ## Distribution & Network
 
