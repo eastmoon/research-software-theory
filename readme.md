@@ -74,6 +74,12 @@
         - [Deep Learning](./information-retrieval/deep_learning.md)
             + TensorFlow
             + PyTorch
+3. [Artificial Intelligence](https://zh.wikipedia.org/wiki/%E4%BA%BA%E5%B7%A5%E6%99%BA%E8%83%BD)
+    + [什麼是人工智慧](https://www.oracle.com/tw/artificial-intelligence/what-is-ai/)
+    + [AI Expert Roadmap](https://i.am.ai/roadmap/#deep-learning-roadmap)
+    + User Case
+        - [Uber數據庫效益演進史](https://www.ithome.com.tw/news/149327?fbclid=IwAR1m8zPMfWRcPF0O7_2Jhp-I3B6OVIeNS7D3k1meVKUqFSN4Cp0JRDIg0qA)
+        - [玉山銀行ML模型從部署到維運如何自動化](https://www.ithome.com.tw/news/149843?fbclid=IwAR0uZ8LGiz0AOxMYAfQSmv3iS9Yq4ePS_aUgvh_ZXdniNd6LgOJcEXtEymI)
 
 ## Distribution & Network
 
@@ -118,7 +124,7 @@
     - **Sourcing** a script will run the commands in the current shell process. Changes to the environment take effect in the current shell.
     - **Executing** a script will run the commands in a new shell process. Changes to the environment take effect in the new shell and is lost when the script is done and the new shell is terminated.
     - Use source if you want the script to change the environment in your currently running shell. use execute otherwise.
-+ [AI Expert Roadmap](https://i.am.ai/roadmap/#deep-learning-roadmap)
++ [iT自救術─x86和x64到底有什麼差異？](https://www.ithome.com.tw/tech/56880)
 
 ## Operating system performance adjustment
 
