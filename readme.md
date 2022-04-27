@@ -74,6 +74,7 @@
         - [Deep Learning](./information-retrieval/deep_learning.md)
             + TensorFlow
             + PyTorch
+            + OpenVINO
 3. [Artificial Intelligence](https://zh.wikipedia.org/wiki/%E4%BA%BA%E5%B7%A5%E6%99%BA%E8%83%BD)
     + [什麼是人工智慧](https://www.oracle.com/tw/artificial-intelligence/what-is-ai/)
     + [AI Expert Roadmap](https://i.am.ai/roadmap/#deep-learning-roadmap)
@@ -126,8 +127,10 @@
     - Use source if you want the script to change the environment in your currently running shell. use execute otherwise.
 + [iT自救術─x86和x64到底有什麼差異？](https://www.ithome.com.tw/tech/56880)
 
-## Operating system performance adjustment
+## Operating system concept & performance
 
 + Windows
     - [連接用户體驗和遙測服務 (Connected User Experiences and Telemetry)](https://snippetinfo.net/media/1880)
     - [微軟兼容性遙測服務 (Microsoft Compatibility Telemetry)](https://tw.easeus.com/partition-manager-tips/fix-windows-10-microsoft-compatibility-telemetry-high-disk-usage.html#3)
++ Linux
+    - [indoe 限制](./os-concept/inode-limit.md)
