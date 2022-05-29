@@ -101,6 +101,7 @@
         - [HTTP State](./distribution-and-network/http-state.md)
         - [RestAPI](https://zh.wikipedia.org/wiki/%E8%A1%A8%E7%8E%B0%E5%B1%82%E7%8A%B6%E6%80%81%E8%BD%AC%E6%8D%A2)
             + [淺談 REST API 的設計和規劃](https://marco79423.net/articles/%E6%B7%BA%E8%AB%87-rest-api-%E7%9A%84%E8%A8%AD%E8%A8%88%E5%92%8C%E8%A6%8F%E5%8A%83/)
+    + [Telnet](./distribution-and-network/telnet.md)
 5. [Internet of Things](https://zh.wikipedia.org/wiki/%E7%89%A9%E8%81%94%E7%BD%91)
     + [OOSGA 物聯網定義與趨勢](https://oosga.com/iot/)
     + [SAP 什麼是物聯網（IoT）？](https://www.sap.com/taiwan/insights/what-is-iot-internet-of-things.html)
