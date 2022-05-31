@@ -11,6 +11,9 @@ TELNET 是一種 OSI 應用層 (OSI — Application Layer) 協議，在網際網
     - [Telnet vs SSH: Key Differences](https://www.guru99.com/telnet-vs-ssh.html)
     - [Difference between SSH and Telnet](https://www.tutorialspoint.com/difference-between-ssh-and-telnet)
 + Github
+    - [LDMud](https://github.com/ldmud/ldmud)
+    - [KazDragon/telnetpp](https://github.com/KazDragon/telnetpp)
+    - [seanmiddleditch/libtelnet](https://github.com/seanmiddleditch/libtelnet)
     - [Phype/telnet-iot-honeypot, lang: Python](https://github.com/Phype/telnet-iot-honeypot)
     - [Frimkron/mud-pi, lang: Python](https://github.com/Frimkron/mud-pi)
     - [rubena/telnet, lang: C](https://github.com/rubena/telnet)
