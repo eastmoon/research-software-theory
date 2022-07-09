@@ -114,7 +114,7 @@
 + 軟體架構 ( Software Architecture )，單一軟體、專案、服務本身所遵循的概念，如相依性反轉原則 ( Dependency Inversion Principle )
 + 系統架構 ( System Architecture )，複數軟體、專案、服務構成的系統所需遵循的概念，如微服務架構 ( Microservice Architecture )
 + 企業架構 ( Enterprise Architecture )，整合複數系統來維持企業運作的原則，如基礎設施即程式碼 ( Infrastructure as Code )
-    - 架構委員 ( Architecture Committee )，規範軟體、系統架構的組織所需遵循的原則，如敏捷開發 ( Agile Development )
+    - 架構委員會 ( Architecture Committee )，規範軟體、系統架構的組織所需遵循的原則，如敏捷開發 ( Agile Development )
     - 架構團隊 ( Architecture Team )，參與架構設計、規範的團隊原則，如編碼風格 ( Coding Style )
 
 誠如書中所述，一般說明架構會聯想到軟體與系統的特性，但從企業、組織的來看，負責建構架構的架構師，亦有著架構運作；就個人過往經驗來描述，架構師在設計的是軟體、系統間的溝通，但若將層次提升至企業，則更需注重人與人間的溝通，並設計其中的關聯與服務，讓其整體運作不因此停頓與斷裂，而這正是 DevOps 的設計觀點。
