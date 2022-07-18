@@ -47,6 +47,17 @@
     + [ITIL (Information Technology Infrastructure Library) 2022](https://www.itarian.com/itil.php)
     + [ScienceDirect - Information Technology Infrastructure Library](https://www.sciencedirect.com/topics/computer-science/information-technology-infrastructure-library)
     + [ITIL是什麼?](https://www.mjib.gov.tw/FileUploads/eBooks/9890518765f54bc18cdd7ec372ef6651/Section_file/6dfd5696eb2441ce92d48fe98a832415.pdf)
+5. ISO
+    + [9000](https://zh.wikipedia.org/zh-tw/ISO_9000)
+    + [27000](https://zh.wikipedia.org/zh-tw/ISO/IEC_27000%E7%B3%BB%E5%88%97)
+        - [27001](https://zh.wikipedia.org/zh-tw/ISO/IEC_27001)
+        - [27002](https://zh.wikipedia.org/zh-tw/ISO/IEC_27002)
+        - [ISMS 資訊安全管理系統](http://noc.twaren.net/~liangmc/nuk/nsm972/Lesson7.pdf)
+        - [從根本認識 ISO 27001，各行各業都適用的資安架構介紹](https://medium.com/upas/%E5%85%A8%E9%9D%A2%E8%A7%A3%E6%9E%90iso-27001%E8%B3%87%E8%A8%8A%E5%AE%89%E5%85%A8%E7%AE%A1%E7%90%86%E7%B3%BB%E7%B5%B1-3f0441f3ce40)
+        - [ISO/IEC 27001：2013 資訊安全管理系統 Information Security Management System , ISMS](https://www.isoleader.com.tw/home/iso-coaching-detail/ISO27001?gclid=CjwKCAjw5s6WBhA4EiwACGncZYDmG17S5mMS10aBesW-pvTsWOr-oB1Cc2cPxkVctgOAGTbk7xvmpxoC7NYQAvD_BwE)
+        - 課程
+            + [SGS - ISO 27001 - 資訊安全管理系統](https://twap.sgs.com/trainsys/iso27001/iso27001.html)
+            + [HENNGE One - ISO27001（ISMS）是什麼？](https://hennge.com/tw/blog/what-is-iso27001-isms.html)
 
 ## Computer vision
 
