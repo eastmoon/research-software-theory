@@ -14,7 +14,7 @@
 
 **在軟體架構中沒有正確，只有最適**
 
-如同[軟體架構師全方位提升指南](./the-software-architect-elevator.md?)提到，質疑每一件事是架構師的職責，不論是否有必要改變，都有必要去懷疑現況、去思考假設、去探索新知、去重新定義公理，然後取捨公理，最後加以實踐決策後的公理；透過工程的邏輯思維與實務經驗，歷史中堆疊出無數的架構，便是本書所要介紹的主要內容。
+如同[The Software Architect Elevator](./the-software-architect-elevator.md)提到，質疑每一件事是架構師的職責，不論是否有必要改變，都有必要去懷疑現況、去思考假設、去探索新知、去重新定義公理，然後取捨公理，最後加以實踐決策後的公理；透過工程的邏輯思維與實務經驗，歷史中堆疊出無數的架構，便是本書所要介紹的主要內容。
 
 **程式撰寫時深信公理，程式除錯時懷疑公理**
 
@@ -22,11 +22,31 @@
 
 ## 軟體架構
 
-### 定義架構
+### 架構定義
+
+軟體架構難以定義，不論是 [Pattern-Oriented Software Architecture](../software-engineering/architecture_pattern.md) 或 [The Software Architect Elevator](./the-software-architect-elevator.md) 都有著各自的定義，其原因基於 **『Architecture is a concept.』** 來看可以理解為每個人對於觀念的解釋與看法各自不同，這也能對應 **『架構的定義幾乎與職業的架構師一樣多』** 的解釋；但不論是何種解釋，其中不乏相似且具有統一性的觀點，因此，本書提出了對軟體架構的定義描述：
+
++ 系統結構，系統元件間關係的說明或圖例
++ 架構決策，系統元件間的關係運作法則與限制
++ 架構特性，系統在此架構下可支援的特性 ( The Software Architect Elevator 一書中的非功能性需求 )
++ 設計原理，系統在此架構下依循的設計理論，亦是當決策衝突時的指導方針
+
+舉例來說，規劃一個負載平衝系統，則其架構定義描述如下：
+
++ 負載平衝系統結構：from [Load Balancer Definition - Avinetworks](https://avinetworks.com/glossary/load-balancer/)
+![load-balancer-system-diagram](avinetworks-load-balancer-system-diagram.png)
++ 結構決策：
+    - 負載平衝會基於現有 Application Servers 運作狀態配置 Application Client 的請求
++ 架構特性：
+    - 可擴展性，基於此架構可以依據系統需要增減對應設備來擴充處理量
++ 設計原理：
+    - [分層式架構 ( Layered Architecture )](https://cs.uwaterloo.ca/~m2nagapp/courses/CS446/1195/Arch_Design_Activity/Layered.pdf)
 
 ### 架構思維
 
 ### 架構特性
+
+### 模組化
 
 ## 架構風格
 
