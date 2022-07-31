@@ -24,14 +24,14 @@
 
 ### 架構定義
 
-軟體架構難以定義，不論是 [Pattern-Oriented Software Architecture](../software-engineering/architecture_pattern.md) 或 [The Software Architect Elevator](./the-software-architect-elevator.md) 都有著各自的定義，其原因基於 **『Architecture is a concept.』** 來看可以理解為每個人對於觀念的解釋與看法各自不同，這也能對應 **『架構的定義幾乎與職業的架構師一樣多』** 的解釋；但不論是何種解釋，其中不乏相似且具有統一性的觀點，因此，本書提出了對軟體架構的定義描述：
+軟體架構難以定義，不論是 [Pattern-Oriented Software Architecture](../software-engineering/architecture_pattern.md) 或 [The Software Architect Elevator](./the-software-architect-elevator.md) 都有著各自的定義，其原因基於 **『Architecture is a concept.』** 來看可以理解為每個人對於觀念的解釋與看法各自不同，這也能對應 **『架構的定義幾乎與職業的架構師一樣多』** 的解釋；但不論是何種解釋，其中不乏相似且具有統一性的觀點，因此，本書提出了對軟體架構的定義：
 
 + 系統結構，系統元件間關係的說明或圖例
 + 架構決策，系統元件間的關係運作法則與限制
 + 架構特性，系統在此架構下可支援的特性 ( The Software Architect Elevator 一書中的非功能性需求 )
 + 設計原理，系統在此架構下依循的設計理論，亦是當決策衝突時的指導方針
 
-舉例來說，規劃一個負載平衝系統，則其架構定義描述如下：
+舉例來說，規劃一個負載平衝系統，則其架構定義如下：
 
 + 負載平衝系統結構：from [Load Balancer Definition - Avinetworks](https://avinetworks.com/glossary/load-balancer/)
 ![load-balancer-system-diagram](./img/avinetworks-load-balancer-system-diagram.png)
@@ -41,6 +41,14 @@
     - 可擴展性，基於此架構可以依據系統需要增減對應設備來擴充處理量
 + 設計原理：
     - [分層式架構 ( Layered Architecture )](https://cs.uwaterloo.ca/~m2nagapp/courses/CS446/1195/Arch_Design_Activity/Layered.pdf)
+
+軟體架構的定義是一種描述或說明架構概念與思維的資料呈現方式，而其中的決策、特性、原理更是架構規劃時會有爭議與更動的部分，這也符合書中對軟體架構的設計法則存在的一致性解釋的說法：
+
++ 軟體架構的一切皆是取捨
+就如同前述構成軟體架構的部分有四個，而其四個互相關連但也可說互相獨立構成，這也使得規劃時會基於軟體需求與執行環境的衝突，亦或是原理與特性矛盾；倘若出現此狀況，就必需對其結構、決策、特性、原理的細節中做出取捨，以平衡此架構的設計結果。
+
++ 為什麼遠比如何來得重要
+對架構來說如何做到往往不是問題，為什麼要這樣做反而是問題；也可以說架構設計之初就反映了架構師對系統、語言的技術底蘊深厚，但更多是基於前述架構師要懂得懷疑，而同樣的觀念也回到軟體架構的描述上，對此其設計往往會是基於一個疑惑、問題而來，從而基於某個原則、達到某種特性，從而規劃出結構並制定決策。
 
 ### 架構思維
 
