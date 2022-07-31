@@ -34,7 +34,7 @@
 舉例來說，規劃一個負載平衝系統，則其架構定義描述如下：
 
 + 負載平衝系統結構：from [Load Balancer Definition - Avinetworks](https://avinetworks.com/glossary/load-balancer/)
-![load-balancer-system-diagram](avinetworks-load-balancer-system-diagram.png)
+![load-balancer-system-diagram](./img/avinetworks-load-balancer-system-diagram.png)
 + 結構決策：
     - 負載平衝會基於現有 Application Servers 運作狀態配置 Application Client 的請求
 + 架構特性：
