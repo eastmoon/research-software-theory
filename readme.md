@@ -117,8 +117,9 @@
         - 原則上，TCP 為『可靠通訊』，UDP 為『不可靠通訊』，其差別在 TCP 基於檢查碼有序的傳輸，但 UDP 是以串流封包單向的廣播近網路
     + [Socket vs MQTT](https://www.educba.com/mqtt-vs-websocket/)
         - [Socket wiki](https://zh.wikipedia.org/wiki/%E7%B6%B2%E8%B7%AF%E6%8F%92%E5%BA%A7)；**Websocket is a computer communication protocol. It creates a two-way channel between a web browser and a server.**
+        - [Message Queue wiki](https://zh.wikipedia.org/zh-tw/%E6%B6%88%E6%81%AF%E9%98%9F%E5%88%97)；**The message queue paradigm is a sibling of the publisher/subscriber pattern, and is typically one part of a larger message-oriented middleware system.**
         - [MQTT wiki](https://zh.wikipedia.org/wiki/MQTT)；**MQTT (Message Queue Telemetry Transmission) uses the publish/subscribe network protocol, which is used to transport messages between devices directly in the web browser.**
-        - Socket 是基於點對點通訊，MQTT 基於訂閱 ( subscribe ) 與發佈 ( publish )；相較通訊上 Socket 是基於 TCP 規則的簡化，而 MQTT 是基於 Socket 設計的簡化，可以說 MQTT 效率高於 Socket 則是因為功能與用途更加明確的精簡設計導致
+        - Socket 是基於點對點通訊，MQTT 基於訂閱 ( subscribe ) 與發佈 ( publish )；相較通訊上 Socket 是基於 TCP 規則的基礎運用，其主要設計目的是點對點的雙向通訊規則，其中並未規範內容傳遞方式；而 MQTT 是基於 Socket 通訊基礎與 Message Queue 設計的瀏覽器通訊機制，可以說 MQTT 是對於通訊內容結構與規範完整的 Socket 系統。
     + [Socket vs HTTP](https://www.geeksforgeeks.org/what-is-web-socket-and-how-it-is-different-from-the-http/)
         - [HTTP State](./distribution-and-network/http-state.md)
         - [RestAPI](https://zh.wikipedia.org/wiki/%E8%A1%A8%E7%8E%B0%E5%B1%82%E7%8A%B6%E6%80%81%E8%BD%AC%E6%8D%A2)
