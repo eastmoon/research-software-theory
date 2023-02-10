@@ -85,6 +85,7 @@
 2. [Data Mining](https://zh.wikipedia.org/wiki/%E6%95%B0%E6%8D%AE%E6%8C%96%E6%8E%98)
     + [Pattern recognition](https://zh.wikipedia.org/wiki/%E6%A8%A1%E5%BC%8F%E8%AF%86%E5%88%AB)
     + [Machine Learning and Deep Learnin : a survey](https://link.springer.com/article/10.1007/s10462-018-09679-z)
+        - [Feature Engineering](./information-retrieval/feature_engineering.md)
         - Machine Learning
             + [Scikit-learn](https://github.com/eastmoon/docker-jupyter-webapp)
             + [Weka](https://github.com/eastmoon/infra-weka)

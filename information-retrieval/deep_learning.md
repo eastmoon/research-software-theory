@@ -19,3 +19,4 @@
 + [解除機器深度學習迷思，臉書 AI 負責人 Yann LeCun 解釋給你聽](http://buzzorange.com/techorange/2015/02/26/facebook-ai-yann-lecun/)
 + [深度學習的深度](http://www.csie.ntu.edu.tw/~sdlin/novel/deep_learning.pdf)
 + [Programming Computer Vision with Python](http://yongyuan.name/pcvwithpython/)
++ [機器學習如何運作](https://brohrer.mcknote.com/zh-Hant/how_machine_learning_works/)
