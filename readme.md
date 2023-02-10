@@ -30,24 +30,19 @@
 
 ## Development Operations
 
-<center>
-    <img src="./development-operations/img/devops-concept.png" alt="devops concept picture" />
-</center>
-
-1. [軟體配置管理 ( SCM、Software Configuration Management )](https://zh.wikipedia.org/wiki/%E8%BD%AF%E4%BB%B6%E9%85%8D%E7%BD%AE%E7%AE%A1%E7%90%86)
+1. [DevOps 設計概念](./development-operations/devops-design-concept.md)
+2. [軟體配置管理 ( SCM、Software Configuration Management )](https://zh.wikipedia.org/wiki/%E8%BD%AF%E4%BB%B6%E9%85%8D%E7%BD%AE%E7%AE%A1%E7%90%86)
     + [Git 議題](./development-operations/git-issue.md)
-2. [Virtual Machine](https://github.com/eastmoon/research-distributed-computing#virtual-machine)
-    + [Vagrant](https://github.com/eastmoon/research-distributed-computing/blob/master/Vagrant/docs)
-    + [Docker](https://github.com/eastmoon/research-distributed-computing/blob/master/Docker/docs)
-3. [Cross Compile](https://github.com/eastmoon/tutorial-cmake#%E4%BA%A4%E5%8F%89%E7%B7%A8%E8%AD%AF%E5%99%A8--cross-compiler-)
+3. [Virtual Machine](https://github.com/eastmoon/research-distributed-computing#virtual-machine)
+4. [Cross Compile](https://github.com/eastmoon/tutorial-cmake#%E4%BA%A4%E5%8F%89%E7%B7%A8%E8%AD%AF%E5%99%A8--cross-compiler-)
     + [安裝 arm64 套件於 amd64 環境](./development-operations/cross-package-install.md)
-4. [ITIL](https://zh.wikipedia.org/wiki/%E4%BF%A1%E6%81%AF%E6%8A%80%E6%9C%AF%E5%9F%BA%E7%A1%80%E6%9E%B6%E6%9E%84%E5%BA%93)
+5. [ITIL](https://zh.wikipedia.org/wiki/%E4%BF%A1%E6%81%AF%E6%8A%80%E6%9C%AF%E5%9F%BA%E7%A1%80%E6%9E%B6%E6%9E%84%E5%BA%93)
     + [DEFINITION - ITIL (Information Technology Infrastructure Library)](https://www.techtarget.com/searchdatacenter/definition/ITIL)
     + [IBM - IT Infrastructure Library (ITIL)](https://www.ibm.com/cloud/learn/it-infrastructure-library)
     + [ITIL (Information Technology Infrastructure Library) 2022](https://www.itarian.com/itil.php)
     + [ScienceDirect - Information Technology Infrastructure Library](https://www.sciencedirect.com/topics/computer-science/information-technology-infrastructure-library)
     + [ITIL是什麼?](https://www.mjib.gov.tw/FileUploads/eBooks/9890518765f54bc18cdd7ec372ef6651/Section_file/6dfd5696eb2441ce92d48fe98a832415.pdf)
-5. ISO
+6. ISO
     + [9000](https://zh.wikipedia.org/zh-tw/ISO_9000)
     + [27000](https://zh.wikipedia.org/zh-tw/ISO/IEC_27000%E7%B3%BB%E5%88%97)
         - [27001](https://zh.wikipedia.org/zh-tw/ISO/IEC_27001)
