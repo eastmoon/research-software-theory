@@ -49,7 +49,7 @@ AirFlow 的優點是基於 WaC 原則，並提供開發的資料運算流程能�
 
 ## 分層管理
 
-基於 Layer 架構的設計常用於系統架構中，最常用於解釋 [3-Tier 架構](https://www.finereport.com/en/product-functions/3-tier-architecture.html)，而用在 DevOps 軟體設計概念的探討出自 [calculate-service-architecture](https://github.com/eastmoon/calculate-service-architecture) 的架構設計與整理，但若更簡單的解釋 Layer，則可視其為 Pipe & Filter 的一種變形，Layer 中的各層便是 Filter，而 Layer 的溝通原則就是 Pipe，因此，在 Layer 中優先討論的是各層的用途，其次基於層級不可跨越的通訊原則考量層級間的單或雙向通訊方式。
+基於 Layer 架構的設計常用於系統架構中，最常用於解釋 [3-Tier 架構](https://www.finereport.com/en/product-functions/3-tier-architecture.html) 的關係，而用在 DevOps 軟體設計概念的探討出自 [calculate-service-architecture](https://github.com/eastmoon/calculate-service-architecture) 的架構設計，以此整理各階段的通訊原則與其中單元運作專案類型的歸納與設計方向。
 
 以 Layer 來規劃與設計 DevOps 考量以下幾點：
 
@@ -57,10 +57,12 @@ AirFlow 的優點是基於 WaC 原則，並提供開發的資料運算流程能�
 + DevOps 各階段猶如層級且設計原則上不可跨越層級互通，依據實務狀況會有忽略階段
 + DevOps 各階段會依據目標使用不同的軟體與語言實作
 
+在藉由 Layer 規劃後，可參考下圖所示，整理自身在各階段的軟體運用關係。
+
 ![DevOps Ecosystem](./img/devops-ecosystem.jpg)
 > From [What *actually* is DevOps?](https://rafaelhart.com/2018/02/what-actually-is-devops/)
 
-也如同上圖所示，在 DevOps 中各階段會依據需求使用不同軟體來協助，但不同軟體間對於資料的管理與軟體控制方式各有不同，因此使用 Layer 描述各階段的關係，除用於統一通訊方式與彙整內容，更便於各階層間的專案設計與管理程式規劃。
+由於不同軟體間對於資料的管理與軟體控制方式各有不同，因此優先基於 Layer 的規劃與設計 DevOps 階層間的系統指令與管理程式，例如下述專案結構：
 
 ```
 devops repository
@@ -69,12 +71,14 @@ devops repository
   └ Deploy
 ```
 
-例如設計如上的管理程式來整理 DevOps 系統的指令與管理，或設計諸如以下的專案來掌控各軟體的啟動、設定，並彙整出結果至指定目錄，便於 DevOps 管理指令搬移與彙整。
+而 DevOps 的系統指令與管理，會配合如以下的專案來掌控各軟體的啟動、設定，並彙整出結果至指定目錄，便於 DevOps 管理指令搬移與彙整。
 
 + [Gitlab](https://github.com/eastmoon/infra-gitlab)
 + [Jenkins](https://github.com/eastmoon/infra-jenkins)
 + [Http File Server](https://github.com/eastmoon/infra-hfs)
 + [elsticsearch & kibana](https://github.com/eastmoon/infra-elk)
+
+透過上述步驟，將規模化的 DevOps 系統細緻到各專案有統一的管理指令與專案結構，進而確保其後增添進 DevOps 工作單元與流程依據規則持續運行。
 
 ## 結論
 
