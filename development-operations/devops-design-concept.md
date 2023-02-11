@@ -47,6 +47,47 @@ AirFlow 是用於資料處理的工作流程管理系統 ( Workflow Management S
 
 AirFlow 的優點是基於 WaC 原則，並提供開發的資料運算流程能有個操控界面與執行狀況說明，其中動態產生工作流更是一個有趣的設計，缺點亦是這般運用 Python 導致運用人員需對提高開發思維。
 
+## 分層管理
+
+基於 Layer 架構的設計常用於系統架構中，最常用於解釋 [3-Tier 架構](https://www.finereport.com/en/product-functions/3-tier-architecture.html)，而用在 DevOps 軟體設計概念的探討出自 [calculate-service-architecture](https://github.com/eastmoon/calculate-service-architecture) 的架構設計與整理，但若更簡單的解釋 Layer，則可視其為 Pipe & Filter 的一種變形，Layer 中的各層便是 Filter，而 Layer 的溝通原則就是 Pipe，因此，在 Layer 中優先討論的是各層的用途，其次基於層級不可跨越的通訊原則考量層級間的單或雙向通訊方式。
+
+以 Layer 來規劃與設計 DevOps 考量以下幾點：
+
++ DevOps 各階段關係固定且具有單向通訊原則
++ DevOps 各階段猶如層級且設計原則上不可跨越層級互通，依據實務狀況會有忽略階段
++ DevOps 各階段會依據目標使用不同的軟體與語言實作
+
+![DevOps Ecosystem](./img/devops-ecosystem.jpg)
+> From [What *actually* is DevOps?](https://rafaelhart.com/2018/02/what-actually-is-devops/)
+
+也如同上圖所示，在 DevOps 中各階段會依據需求使用不同軟體來協助，但不同軟體間對於資料的管理與軟體控制方式各有不同，因此使用 Layer 描述各階段的關係，除用於統一通訊方式與彙整內容，更便於各階層間的專案設計與管理程式規劃。
+
+```
+devops repository
+  └ Build
+  └ Test
+  └ Deploy
+```
+
+例如設計如上的管理程式來整理 DevOps 系統的指令與管理，或設計諸如以下的專案來掌控各軟體的啟動、設定，並彙整出結果至指定目錄，便於 DevOps 管理指令搬移與彙整。
+
++ [Gitlab](https://github.com/eastmoon/infra-gitlab)
++ [Jenkins](https://github.com/eastmoon/infra-jenkins)
++ [Http File Server](https://github.com/eastmoon/infra-hfs)
++ [elsticsearch & kibana](https://github.com/eastmoon/infra-elk)
+
+## 結論
+
+DevOps 規劃與設計的需求來源於專案、產品、公司規模，諸如新創團隊此等規模，即使沒有 DevOps 來整合開發流程與自動化也不會影響團隊工作效率，但若開發團隊人數、專案與產品數量增加，利用 DevOps 來彙整資訊、開發環境統一、自動化產品封裝與部屬、檢驗產品可靠與穩定性等，這類需求就會逐漸浮現。
+
+在多數情況下，團隊成長時部分開發會基於需要建立自身所需的 DevOps，但常會基於自身慣用語言、軟體來設計，導致 DevOps 規模增加時碰到難以維護或無法分工的問題。
+
+而若將見聞彙整，則可歸類為以下狀況：
+
++ 運作流程適用當時，不適用擴大後的規模
++ 分層管理僅用運用軟體本身，無抽象設計與統一軟體的專案結構
+
+這些設計狀況多數原因是考量便利完成與尚且適用，且 DevOps 的演進往往以年度推進，因此，問題往往是推積到產出與收益無法平衡時才會重視。
 
 ## 文獻
 
