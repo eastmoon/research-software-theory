@@ -8,6 +8,7 @@
 
 1. [Language, Script.](./software-engineering/language_and_script.md)
     + [Folder structure and namespace defined](./software-engineering/folder_structure_and_namespace_defined.md)
+    + [Abstract and Interface](./software-engineering/programming_paradigm_abstract_and_interface.md)
     + [Imperative and Declarative](./software-engineering/programming_paradigm_imperative_and_declarative.md)
     + [Reactive programming](./software-engineering/programming_paradigm_reactive_programming.md)
     + [Cross Compiler](./software-engineering/cross_compiler.md)
