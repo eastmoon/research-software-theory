@@ -104,6 +104,9 @@
     + User Case
         - [Uber數據庫效益演進史](https://www.ithome.com.tw/news/149327?fbclid=IwAR1m8zPMfWRcPF0O7_2Jhp-I3B6OVIeNS7D3k1meVKUqFSN4Cp0JRDIg0qA)
         - [玉山銀行ML模型從部署到維運如何自動化](https://www.ithome.com.tw/news/149843?fbclid=IwAR0uZ8LGiz0AOxMYAfQSmv3iS9Yq4ePS_aUgvh_ZXdniNd6LgOJcEXtEymI)
+4. [A Guide to Data Roles](https://www.datacaptains.com/blog/guide-to-data-roles)
+
+![Data Roles](https://images.squarespace-cdn.com/content/v1/61fd85d490d950673294e700/01c95086-bd5a-4ff7-a881-1b6757a21a11/Radar.png)
 
 ## Distribution & Network
 
