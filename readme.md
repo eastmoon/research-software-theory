@@ -108,6 +108,20 @@
 
 ![Data Roles](https://images.squarespace-cdn.com/content/v1/61fd85d490d950673294e700/01c95086-bd5a-4ff7-a881-1b6757a21a11/Radar.png)
 
+5. [LLM](https://zh.wikipedia.org/zh-tw/%E5%A4%A7%E5%9E%8B%E8%AF%AD%E8%A8%80%E6%A8%A1%E5%9E%8B)
+    + [什麼是大型語言模型 (LLM)？ - aws](https://aws.amazon.com/tw/what-is/large-language-model/)
+    + [什麼是大型語言模型 (LLM)？ - cloudflare](https://www.cloudflare.com/zh-tw/learning/ai/what-is-large-language-model/)
+    + [台灣人工智慧同好交流區 - 讓LLM瞬間變成專家混合(MoE)架構的方法](https://www.facebook.com/groups/datasci.tw/posts/7338537189556941)
+    + 圖像生成
+        - [Stable Diffusion: The Complete Guide](https://viso.ai/deep-learning/stable-diffusion/)
+        - [Best Free & Open-Source AI Image Generators to Self-Host](https://pinggy.io/blog/best_free_open_source_ai_image_generators_to_self_host/)
+        - [A Guide to Open-Source Image Generation Models](https://www.bentoml.com/blog/a-guide-to-open-source-image-generation-models)
+        - [How to use Stable Diffusion to generate product images](https://www.mercity.ai/blog-post/use-stable-diffusion-to-generate-product-images)
+    + 微調 ( Finetuning )
+        - [微調大型語言模型LLM的技術LoRA及生成式AI-Stable diffusion LoRA](https://xiaosean5408.medium.com/%E5%BE%AE%E8%AA%BF%E5%A4%A7%E5%9E%8B%E8%AA%9E%E8%A8%80%E6%A8%A1%E5%9E%8Bllm%E7%9A%84%E6%8A%80%E8%A1%93lora%E5%8F%8A%E7%94%9F%E6%88%90%E5%BC%8Fai-stable-diffusion-lora-61a41d636772)
+        - [LLM Note Day 24 - 語言模型微調 LLM Finetuning](https://ithelp.ithome.com.tw/articles/10336323)
+        - [Finetuning Large Language Models](https://hackmd.io/@YungHuiHsu/HJ6AT8XG6)
+        
 ## Distribution & Network
 
 1. [分散運算研究專案](https://github.com/eastmoon/research-distribution-calculation)
